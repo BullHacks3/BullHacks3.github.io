@@ -1448,12 +1448,6 @@ Icon for all respective meta
 }
 
 /* === Hire Section === */
-.hire-section {
-    background: url(../../assets/images/hire-bg.jpg) no-repeat top center #68C3A3;
-    background-attachment: fixed;
-    background-size: cover;
-    color: #fff;  
-}
 .hire-section-bg {
     padding: 110px 0;
     background: -webkit-linear-gradient(bottom, #68C3A3, rgba(104, 195, 163, 0.7)); /*Safari 5.1-6*/
