@@ -298,6 +298,24 @@ ul.list-check li.c::after {
  ul.list-check li.burp::after {
 content: url('../images/ico/burpsuite.png');
 }
+ ul.list-check li.k8s::after {
+content: url('../images/ico/k8s.png');
+}
+ ul.list-check li.es::after {
+content: url('../images/ico/es.png');
+}
+ ul.list-check li.k::after {
+content: url('../images/ico/k.png');
+}
+ ul.list-check li.ls::after {
+content: url('../images/ico/ls.png');
+}
+ ul.list-check li.aws::after {
+content: url('../images/ico/aws.jpg');
+}
+ul.list-check li.ansible::after {
+    content: url('../images/ico/ansible.png');
+    }
   /* SECTION TITLE
 ----------------------------------------------------- */
 .section-title {
@@ -708,7 +726,7 @@ Resume Timeline
     position: relative;
 }
 
-.resume:before{
+/*.resume:before{
     content: "";
     position: absolute;
     top: -8px;
@@ -723,7 +741,7 @@ Resume Timeline
          -o-transform: rotate(45deg);
             transform: rotate(45deg);
 }
-
+*/
 .resume:after{
     content: "";
     position: absolute;
@@ -749,7 +767,6 @@ Resume Timeline
     margin-left: -1.5px;
     background-color: #e1e1e1;
 }
-
 .timeline>li {
     position: relative;
     margin-bottom: 50px;
@@ -972,7 +989,6 @@ Resume Timeline
 .timeline>li .posted-date .month {
     float: none;
 }
-
 
 }
 
